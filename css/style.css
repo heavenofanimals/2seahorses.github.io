@@ -150,3 +150,36 @@ footer{
     text-align: center
 }
 
+/* media queries */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #subscribe h1,
+    #subscribe form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #showcase h1{
+        margin-top: 40px;
+    }
+
+    #subscribe button{
+        display:block;
+        width: 100%;
+    }
+
+    #subscribe form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
