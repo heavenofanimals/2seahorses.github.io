@@ -127,3 +127,10 @@ header a:hover{
 #boxes .box img{
     width: 150px;
 }
+
+/* article */
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
